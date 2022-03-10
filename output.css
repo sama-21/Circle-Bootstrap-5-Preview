@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    overflow-x: hidden;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+    border-radius: 50%;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: white; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(37, 37, 37); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: black; 
+  }
+#circle {
+    position: fixed;
+    border-radius: 50%;
+    z-index: 5;
+    height: 20px;
+    transition: .2s;
+    width: 20px;
+    background-color: black;
+    margin: 20px;
+}
+  .dark-mode {
+    background-color: rgb(51, 51, 51);
+    color: white;
+  }
+  .nav-item {
+      margin: 0 10px;
+  }
+  .nav-link:hover {
+      transition: .8s all;
+      border-left: 1px solid black;
+      border-bottom: 1px solid black;
+    }
+    #title-name {
+        border-radius: 50%;
+        background-color: black;
+        padding: 35px 10px;
+    }
+    #prototyping {
+        border-radius: 50%;
+        border: 1px solid gray;
+        padding: 130px 0px;
+    }
+    #prototyping:hover {
+        transition: .3s all;
+        transform-origin: center;
+        transform: scale(1.3);
+    }
+    #ecommerce {
+        border-radius: 50%;
+        border: 1px solid gray;
+        padding: 130px 0px;
+    }
+    #ecommerce:hover {
+        transition: .3s all;
+        transform-origin: center;
+        transform: scale(1.3);
+    }
+    #design {
+        border-radius: 50%;
+        border: 1px solid gray;
+        padding: 130px 0px;
+    }
+    #design:hover {
+        transition: .3s all;
+        transform-origin: center;
+        transform: scale(1.3);
+    }
+    #strategy {
+        border-radius: 50%;
+        border: 1px solid gray;
+        padding: 130px 0px;
+    }
+    #strategy:hover {
+        transition: .3s all;
+        transform-origin: center;
+        transform: scale(1.3);
+    }
+    .navbar {
+        background-color: white;
+    }
+    #variety section {
+        border: 1px solid black;
+    }
+    #go-up:hover {
+        border: none;
+        outline: none;
+    }
